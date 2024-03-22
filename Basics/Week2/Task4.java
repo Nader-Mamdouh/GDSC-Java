@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
+        /*Write a program that takes the weekday number (1 for Monday, 2 for Tuesday, ..., 7 for Sunday) as input from the user and prints the corresponding weekday name.*/
         Scanner Number = new Scanner(System.in);
         System.out.println("Please Enter Number of Day : ");
         int day = Number.nextInt();
